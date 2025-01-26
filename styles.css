@@ -727,66 +727,66 @@ form{
 .btn{
     margin-top: 20px;
 }
-/* حالت نور */
+
 .light-mode.sec5 {
-    background-color: rgb(238, 234, 234 ,0.5); /* رنگ پس‌زمینه روشن */
-    color: #212529; /* رنگ متن تاریک */
+    background-color: rgb(238, 234, 234 ,0.5); 
+    color: #212529;
 }
 
 .light-mode .form-control {
-    background-color:#77726f; /* رنگ پس‌زمینه فرم */
-    color: #212529; /* رنگ متن فرم */
+    background-color:#77726f; 
+    color: #212529; 
 }
 
 .light-mode .btn-color {
-    background-color:#917f5a; /* رنگ دکمه */
-    border: none; /* حذف حاشیه */
+    background-color:#917f5a; 
+    border: none; 
 }
 
 .light-mode .btn-color:hover {
-    background-color:#6e5d4e; /* رنگ دکمه بر روی hover */
+    background-color:#6e5d4e; 
 }
 
-/* حالت تاریک */
+
 .dark-mode .sec5 {
-    background-color: #343a40; /* رنگ پس‌زمینه تاریک */
-    color: #ffffff; /* رنگ متن روشن */
+    background-color: #343a40; 
+    color: #ffffff; 
 }
 
 .dark-mode .form-control {
     background-color: #bfc3c7;
-    border: none; /* رنگ پس‌زمینه فرم تاریک */
-    color: #ffffff; /* رنگ متن فرم روشن */
+    border: none; 
+    color: #ffffff;
 }
 
 .dark-mode .btn-color {
-    background-color:#665449; /* رنگ دکمه */
-    border: none; /* حذف حاشیه */
+    background-color:#665449; 
+    border: none; 
     font-weight: bold;
 }
 
 .dark-mode .btn-color:hover {
-    background-color:#7c7a76; /* رنگ دکمه بر روی hover */
+    background-color:#7c7a76;
 }
-/* رسانه پرسش‌ها */
-@media (min-width: 993px) { /* لپ‌تاپ و بزرگتر */
+
+@media (min-width: 993px) {
     .sec5 {
-        height: 70vh; /* ارتفاع 100% ارتفاع صفحه */
+        height: 70vh; 
         display: flex;
         flex-direction: column;
-        justify-content: center; /* مرکز عمودی */
-        align-items: center; /* مرکز افقی */
+        justify-content: center; 
+        align-items: center; 
     }
 
     .sec5 .social-icons {
-        display: none; /* پنهان کردن آیکون‌ها در حالت لپ‌تاپ و بزرگتر */
+        display: none; 
     }
 }
 
-@media (max-width: 992px) { /* تبلت و موبایل */
+@media (max-width: 992px) { 
     .sec5 .social-icons {
-        display: flex; /* نمایش آیکون‌ها در حالت تبلت و موبایل */
-        justify-content: center; /* مرکزی کردن آیکون‌ها افقی */
+        display: flex; 
+        justify-content: center; 
     }
 }
 footer {
